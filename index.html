@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>ECSTRA</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
+
+  <!-- Favicons -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon-32x32.png" type="image/png">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap ICONS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Bootstrap JS (for carousel) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Tour
+  * Template URL: https://bootstrapmade.com/tour-bootstrap-travel-website-template/
+  * Updated: Jul 01 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+  
+    <div id="header"></div>
+
+  <main class="main">
+
+    <!-- Travel Hero Section -->
+    <section id="travel-hero" class="travel-hero section dark-background">
+
+      <div class="hero-background">
+        <!-- <video autoplay="" muted="" loop="">
+          <img src="images/slideimg1.png" alt="Travel Hero Background">
+        </video> -->
+        <img src="images/slideimg1.png" alt="" srcset="">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero position-relative">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="hero-text" data-aos="fade-up" data-aos-delay="100">
+              <h1 class="hero-title">Era's Center for Start-Up Training, Research <br>& Acceleration (ECSTRA)</h1>
+              <p class="hero-subtitle">"Empowering Innovators. Accelerating Ideas. Building Tomorrow."</p>
+              <div class="hero-buttons">
+                <a href="pre-incubation.html" class="btn btn-primary me-3">Our Programs</a>
+                <a href="#" class="btn btn-outline">Apply Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 right-content">
+            <!-- <div class="booking-form-wrapper" data-aos="fade-left" data-aos-delay="200">
+              <div class="booking-form">
+                <h3 class="form-title">Plan Your Adventure</h3>
+                <form action="" class="">
+                  <div class="form-group mb-3">
+                    <label for="destination">Destination</label>
+                    <select name="destination" id="destination" class="form-select" required="">
+                      <option value="">Choose your destination</option>
+                      <option value="europe">Europe</option>
+                      <option value="asia">Asia</option>
+                      <option value="america">America</option>
+                      <option value="africa">Africa</option>
+                      <option value="oceania">Oceania</option>
+                    </select>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group mb-3">
+                        <label for="checkin">Departure Date</label>
+                        <input type="date" name="checkin" id="checkin" class="form-control" required="">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group mb-3">
+                        <label for="checkout">Return Date</label>
+                        <input type="date" name="checkout" id="checkout" class="form-control" required="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group mb-3">
+                        <label for="adults">Adults</label>
+                        <select name="adults" id="adults" class="form-select" required="">
+                          <option value="1">1 Adult</option>
+                          <option value="2">2 Adults</option>
+                          <option value="3">3 Adults</option>
+                          <option value="4">4+ Adults</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group mb-3">
+                        <label for="children">Children</label>
+                        <select name="children" id="children" class="form-select">
+                          <option value="0">No Children</option>
+                          <option value="1">1 Child</option>
+                          <option value="2">2 Children</option>
+                          <option value="3">3+ Children</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group mb-3">
+                    <label for="tour-type">Tour Type</label>
+                    <select name="tour_type" id="tour-type" class="form-select" required="">
+                      <option value="">Select tour type</option>
+                      <option value="adventure">Adventure</option>
+                      <option value="cultural">Cultural</option>
+                      <option value="relaxation">Relaxation</option>
+                      <option value="family">Family</option>
+                      <option value="luxury">Luxury</option>
+                    </select>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary w-100">Find Your Perfect Trip</button>
+                </form>
+              </div>
+            </div> -->
+
+            <ul>
+              <li><img src="images/entrepreneur.png" alt="icon"
+                  style="width:30px; height:30px; margin-right:10px;">
+                Empowering entrepreneurs with resources</li><br>
+              <li><img src="images/mentorship.png" alt="icon"
+                  style="width:30px; height:30px; margin-right:10px;">
+                Providing mentorship and training programs</li><br>
+              <li><img src="images/asset-allocation.png" alt="icon"
+                  style="width:30px; height:30px; margin-right:10px;"> Supporting startups with incubation and
+                funding</li><br>
+              <li><img src="images/building.png" alt="icon"
+                  style="width:30px; height:30px; margin-right:10px;">
+                State-of-the-art facilities and workspace</li><br>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </section><!-- /Travel Hero Section -->
+
+    <!-- Why Us Section -->
+    <section id="vision-missions" class="why-us section">
+
+      <div   class="container" data-aos="fade-up" data-aos-delay="100">
+
+
+
+        <!-- End About Us Content -->
+
+        <!-- Why Choose Us -->
+        <div  class="why-choose-section" style="width: 100%; padding: 0px;">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center mb-5"
+              style="width: 100%; padding: 0px; background-color: rgba(210, 208, 208, 0.295); border-radius: 10px; padding: 5px;"
+              data-aos="fade-up" data-aos-delay="100">
+              <h3>Era’s Center for Start-Up Training, Research and Acceleration(ECSTRA)</h3>
+
+              <p>
+                "We are a healthcare innovation hub at Era University, bringing together innovators, experts and
+                healthcare professionals to turn impactful ideas into real-world solutions. Through collaborative
+                partnerships, expert mentorship and access to state-of-the-art resources, we support the development of
+                technologies and strategies that address critical healthcare challenges."
+              </p>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="bi bi-eye-fill"></i>
+                </div>
+                <h4>Vision</h4>
+                <p>Our vision is to become a leading center in India for healthcare innovation, turning ideas into real
+                  solutions that make a big impact.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="bi bi-rocket-takeoff"></i>
+                </div>
+                <h4>Mission</h4>
+                <p>Our goal is to drive healthcare innovation by bringing together different fields, using advanced
+                  technology, and focusing on research that solves real problems.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="bi bi-award-fill"></i>
+                </div>
+                <h4>Objectives</h4>
+                <p>We aim to support the creation of next-generation healthcare solutions by offering expert guidance,
+                  modern facilities, and a strong support system for innovators.
+                </p>
+              </div>
+            </div></div>
+
+
+
+            <section  class="about-founder">
+                         
+            <h2 id="about-founder "class="about-founder-heading" >About Founder</h2>
+
+            
+              <div class="row ">
+                <!-- Image -->
+                <div class="col-md-4 position-relative mb-4 mb-md-0 founder-img-box">
+                  <div class="founder-bg"></div>
+                  <div class="founder-image ms-5 ms-md-0">
+                    <img src="images/zaw-sir's-img.png" alt="">
+                  </div>
+                </div>
+
+                <!-- Quote -->
+                <div class="col-md-8">
+                  <p>Mr. Zaw Ali Khan is the Founder & CEO of Criterion Tech and the visionary behind ECSTRA at Era
+                    University. With a strong focus on healthcare innovation, he has led the development of smart ICU
+                    systems, telemedicine platforms, and simulation tools. Through ECSTRA, he fosters healthcare
+                    entrepreneurship by bridging clinical insight with technology and mentorship. Recognized for his
+                    work in
+                    digital health, he has spoken at major forums like the Global Digital Health Summit and received the
+                    Asia Award for Best Quality Initiative in Healthcare. He also leads True Form Games, creating
+                    immersive
+                    tools for medical education, and holds multiple directorships in healthcare and education ventures.
+                  </p>
+                  <div class="quote-box">
+                    Telemedicine will be a new source of revenue, and avoiding bedsores and other adverse events like
+                    hospital-acquired infections will reduce treatment costs.
+                    <div class="founder-name mt-3">– Zaw Ali Khan</div>
+                  </div>
+                  <p></p>
+                  <div class="social-icons mt-4 d-flex gap-3 flex-wrap">
+                    <div class="social-icons mt-4 d-flex gap-3 flex-wrap">
+                      <a href="#" class="icon facebook"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#" class="icon instagram"><i class="fab fa-instagram"></i></a>
+                      <a href="#" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#" class="icon twitter"><i class="fab fa-twitter"></i></a>
+                      <a href="#" class="icon youtube"><i class="fab fa-youtube"></i></a>
+                      <a href="#" class="icon google"><i class="fab fa-google"></i></a>
+
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+            <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="bi bi-headset"></i>
+                </div>
+                <h4>24/7 Support</h4>
+                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam nisi.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <h4>Global Destinations</h4>
+                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="450">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>Premium Experience</h4>
+                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim.</p>
+              </div>
+            </div> -->
+          </div><!-- End Features Grid -->
+        </div><!-- End Why Choose Us -->
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <section>
+    <!-- collaboration and partners -->
+    <div id="partners" class="container my-5 "  >
+      <!-- <h2  class="mb-4 text-center">Partners & Collaborations</h2> -->
+       <div class="section-title"> <div><span>Partners & Collaboration</span></div>
+      </div>
+      
+
+      <div class="slider">
+    <div class="slider-track">
+      <!-- Add your images here (duplicate for smooth loop) -->
+      <div class="slide"><img src="images/era-university-logo.png" alt=""></div>
+      <div class="slide"><img src="images/era-logo.png" alt=""></div>
+      <div class="slide"><img src="images/criteriontech-logo.png" alt=""></div>
+      <div class="slide"><img src="images/trueforms-logo.png" alt=""></div>
+      <div class="slide"><img src="images/barbados-logo.png" alt=""></div>
+      <div class="slide"><img src="images/siemens-logo.png" alt=""></div>
+      
+      
+      <!-- duplicate images for infinite loop -->
+      <div class="slide"><img src="images/era-university-logo.png" alt=""></div>
+      <div class="slide"><img src="images/era-logo.png" alt=""></div>
+      <div class="slide"><img src="images/criteriontech-logo.png" alt=""></div>
+      <div class="slide"><img src="images/trueforms-logo.png" alt=""></div>
+      <div class="slide"><img src="images/barbados-logo.png" alt=""></div>
+      <div class="slide"><img src="images/siemens-logo.png" alt=""></div>
+    </div>
+  </div>
+
+
+
+
+    
+
+    </section>
+
+    <!-- Testimonials Home Section -->
+    <section id="testimonials-home" class="testimonials-home section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <div><span>What Our Customers</span> <span class="description-title">Are Saying</span></div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                    Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/person/person-m-9.webp" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum
+                    velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/person/person-f-5.webp" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
+                    minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/person/person-f-12.webp" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim
+                    duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/person/person-m-12.webp" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt
+                    culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/person/person-m-13.webp" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Home Section -->
+
+    <!-- Call To Action Section 
+    <section id="call-to-action" class="call-to-action section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="hero-content" data-aos="zoom-in" data-aos-delay="200">
+          <div class="content-wrapper">
+            <div class="badge-wrapper">
+              <span class="promo-badge">Limited Time Offer</span>
+            </div>
+            <h2>Discover Your Next Adventure</h2>
+            <p>Unlock incredible destinations with our specially curated travel packages. From exotic beaches to
+              mountain peaks, your perfect getaway awaits.</p>
+
+            <div class="action-section">
+              <div class="main-actions">
+                <a href="destinations.html" class="btn btn-explore">
+                  <i class="bi bi-compass"></i>
+                  Explore Now
+                </a>
+                <a href="deals.html" class="btn btn-deals">
+                  <i class="bi bi-percent"></i>
+                  View Deals
+                </a>
+              </div>
+
+              <div class="quick-contact">
+                <span class="contact-label">Need help choosing?</span>
+                <a href="tel:+1555123456" class="contact-link">
+                  <i class="bi bi-telephone"></i>
+                  Call +1 (555) 123-456
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="visual-element">
+            <img src="assets/img/travel/showcase-3.webp" alt="Travel Adventure" class="hero-image" loading="lazy">
+            <div class="image-overlay">
+              <div class="stat-item">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Destinations</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">10K+</span>
+                <span class="stat-label">Happy Travelers</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="newsletter-section" data-aos="fade-up" data-aos-delay="300">
+          <div class="newsletter-card">
+            <div class="newsletter-content">
+              <div class="newsletter-icon">
+                <i class="bi bi-envelope-heart"></i>
+              </div>
+              <div class="newsletter-text">
+                <h3>Stay in the Loop</h3>
+                <p>Get exclusive travel deals and destination guides delivered to your inbox</p>
+              </div>
+            </div>
+
+            <form class="php-email-form newsletter-form" action="forms/newsletter.php" method="post">
+              <div class="form-wrapper">
+                <input type="email" name="email" class="email-input" placeholder="Your email address" required="">
+                <button type="submit" class="subscribe-btn">
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Welcome aboard! Check your email for exclusive offers.</div>
+
+              <div class="trust-indicators">
+                <i class="bi bi-lock"></i>
+                <span>We protect your privacy. Unsubscribe anytime.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="benefits-showcase" data-aos="fade-up" data-aos-delay="400">
+          <div class="benefits-header">
+            <h3>Why Choose Our Adventures</h3>
+            <p>Experience the difference with our premium travel services</p>
+          </div>
+
+          <div class="benefits-grid">
+            <div class="benefit-card" data-aos="flip-left" data-aos-delay="450">
+              <div class="benefit-visual">
+                <div class="benefit-icon-wrap">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="benefit-pattern"></div>
+              </div>
+              <div class="benefit-content">
+                <h4>Handpicked Destinations</h4>
+                <p>Every location is carefully selected by our travel experts for authentic experiences</p>
+              </div>
+            </div>
+
+            <div class="benefit-card" data-aos="flip-left" data-aos-delay="500">
+              <div class="benefit-visual">
+                <div class="benefit-icon-wrap">
+                  <i class="bi bi-award"></i>
+                </div>
+                <div class="benefit-pattern"></div>
+              </div>
+              <div class="benefit-content">
+                <h4>Award-Winning Service</h4>
+                <p>Recognized for excellence with 5-star ratings and industry awards</p>
+              </div>
+            </div>
+
+            <div class="benefit-card" data-aos="flip-left" data-aos-delay="550">
+              <div class="benefit-visual">
+                <div class="benefit-icon-wrap">
+                  <i class="bi bi-heart"></i>
+                </div>
+                <div class="benefit-pattern"></div>
+              </div>
+              <div class="benefit-content">
+                <h4>Personalized Care</h4>
+                <p>Tailored itineraries designed around your preferences and travel style</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+  </main>
+
+  <div id="footer"></div>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
+
+    function mobileNavToogle() {
+      document.body.classList.toggle('mobile-nav-active');
+      mobileNavToggleBtn.classList.toggle('bi-list');
+      mobileNavToggleBtn.classList.toggle('bi-x');
+    }
+
+    if (mobileNavToggleBtn) {
+      mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
+    }
+  });
+</script> -->
+
+
+
+
+  <script src="js/main.js"></script>
+  <script src="js/include.js"></script>
+
+
+
+</body>
+
+</html>
