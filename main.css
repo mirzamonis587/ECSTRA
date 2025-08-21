@@ -3589,9 +3589,22 @@ c
 /*--------------------------------------------------------------
 # Travel About Section
 --------------------------------------------------------------*/
+.program-content{
+  margin-left: 0px;
+  width: 58%;
+}
+
+
 .benifits {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+.benifits-spans{
+  width: 58%;
+  margin-left: 0px;
+}
+.benifits-heading{
+  margin-top: 90px;
 }
 
 .pre-incubation-benifits {
@@ -3605,9 +3618,46 @@ c
 }
 
 .benifit-img img {
-  height: 350px;
-  margin-top: -10px;
-  margin-left: 30px;
+  height: auto;
+}
+
+.story-content span{
+  display: flex;
+  /* justify-content: center; */
+  align-items: top;
+}
+@media (max-width: 990px) {
+  .program-info{
+    /* height: 00px; */
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  .program-content{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .benifits-spans{
+    min-width: 100%;
+    margin-left: 0px;}
+  .row .col-lg-5 .benifit-img img {
+    width: 80%;
+    height: auto;
+    /* object-fit: ; */
+  }
+      
+}
+
+.eligibility-heading{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.story-content span i{
+  color: #efb435;
+  font-size: 1.5rem;
+  margin-right: 10px;
 }
 
 .benifit-content {
@@ -3638,22 +3688,25 @@ c
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 20px;
+  gap: 1%;
+  border-radius: 10px;
   background-color: #eae3e3;
   margin-top: 0px;
   padding: 20px;
   width: 99%;
-  height: 45vh;
+  height: auto;
 }
 
 .pre-incubation-eligibility .box {
-  width: 500px;
-  height: 170px;
+  width: auto;;
+  height: 85%;
   background-color: #02488e;
   color: white;
+  padding:10px 10px 0 10px;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   font-size: 18px;
   font-weight: 200
@@ -3669,6 +3722,31 @@ c
   background-color: goldenrod;
   border-radius: 50%;
   margin-bottom: 10px;
+}
+@media (max-width: 990px) {
+  .eligibility {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .pre-incubation-eligibility {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .pre-incubation-eligibility .box {
+    width: 45%;
+    height: 200px;
+   
+  }
+  @media(max-width: 410px){
+    .pre-incubation-eligibility .box {
+      width: 100%;
+      height: auto;
+    }
+  }
 }
 
 
