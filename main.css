@@ -3693,14 +3693,14 @@ c
   background-color: #eae3e3;
   margin-top: 0px;
   padding: 20px;
-  width: 99%;
+  width: 100%;
   height: auto;
 }
 
 .pre-incubation-eligibility .box {
-  width: auto;;
-  height: 85%;
-  background-color: #02488e;
+  width: 28%;
+  height: 40vh;
+  background-color: #02478e;
   color: white;
   padding:10px 10px 0 10px;
   border-radius: 8px;
@@ -3713,13 +3713,15 @@ c
 }
 
 .circle {
-  height: 50px;
+  height: 60px;
   margin-top: 15px;
-  width: 50px;
-  text-align: center;
-  font-weight: bold;
+  width: 60px;
+  /* text-align: center; */
+  font-size: 1.5rem;
+  font-weight: 700;
   align-content: center;
-  background-color: goldenrod;
+  background-color: #efb435;
+  ;
   border-radius: 50%;
   margin-bottom: 10px;
 }
@@ -3734,6 +3736,7 @@ c
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    width: auto;
   }
 
   .pre-incubation-eligibility .box {
