@@ -1485,7 +1485,48 @@ section,
 }
 
 .internship-bg {
+  height: 70vh;
   opacity: 0.3;
+}
+
+
+.internship-left-text{
+  color:white;
+  /* font-size: 20px; */
+  font-weight: 500;
+  }
+  .internship-left-text h1{
+    font-size: 36px;
+    font-weight: 700;
+  }
+.internship-left-text p{
+  font-size: 16px;
+  font-weight: 400;
+}
+.internship-form-btn{
+  background-color: #efb435;
+  width: 100%;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.53);
+  display: inline-block;
+  transition: 0.5s ease;
+}
+.internship-left-text .left-btn a{
+  background-color: #efb435;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.53);
+  display: inline-block;
+  transition: 0.5s ease;
 }
 
 .travel-hero .hero-background video {
@@ -1518,7 +1559,7 @@ section,
 .travel-hero .hero-text .hero-subtitle {
   font-size: 1.3rem;
   margin-bottom: 2rem;
-  color: goldenrod;
+  color: #efb435;
   font-weight: 500;
   /* opacity: 0.9; */
   line-height: 1.6;
@@ -1602,6 +1643,7 @@ section,
   /* Increased size */
 
 }
+
 
 .travel-hero .booking-form-wrapper .booking-form .form-title {
   color: var(--heading-color);
@@ -2251,6 +2293,9 @@ c
       /* maintain square aspect ratio */
       /* box-sizing: border-box; */
     }
+    .empty-box{
+      width: 2%;
+    }
 
     .slide img {
       width: 100%;
@@ -2272,22 +2317,23 @@ c
     }
 
     /* Tablet view (3 images per row) */
-    @media (max-width: 992px) {
+    @media (max-width: 990px) {
       .slide {
-        width: 15%;
+        width: 20%;
       }
       .slide img {
-        height: 200px;
+        height: 150px;
       }
     }
 
     /* Mobile view (2 images per row) */
     @media (max-width: 600px) {
       .slide {
-        width: 50%;
+        width: 5%;
+        gap: 20px;
       }
       .slide img {
-        height: 180px;
+        height: 120px;
       }
     }
   
@@ -3605,6 +3651,13 @@ c
 }
 .benifits-heading{
   margin-top: 90px;
+}
+.incubation-img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px;
 }
 
 .pre-incubation-benifits {
