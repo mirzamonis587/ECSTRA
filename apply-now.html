@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="modal fade show" id="applynow" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: block;" aria-modal="true" role="dialog">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content contentform">
+            <div class="modal-header myclosebtn">
+                <div class="myclosebtn">
+                    <h5 class="modal-title" id="">Application Form</h5>
+                    <p>Applications are now open and interested candidates can register by filling the form below.</p>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="">
+                    <span aria-hidden="true"><img src="https://erauniversity.in/ecstra/public/incubation/images/close.svg" alt="close"> </span>
+                </button>
+            </div>
+        
+                <div class="modal-body">
+                <form method="post" action="javascript:;" enctype="multipart/form-data" id="myform">
+                <div id="responseMsg"></div>
+                    <div class="applycontentform">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group fontform">
+                                <label for="">Enter Name <span class="astrick">*</span></label>
+                                <input type="text" class="form-control" id="username" name="username" placeholder="Enter your full name">
+                                <div id="usernameErr" style="color:red;padding-bottom:10px;"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div id="" class="form-group fontform">
+                                <label for="">Contact Number <span class="astrick">*</span></label>
+                                <input name="contact" id="contact" required="" type="number" placeholder="Enter your contact number" class="form-control">
+                                    <div id="contactErr" style="color:red;padding-bottom:10px;"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="" class="form-group fontform">
+                                <label for="">Enter Email <span class="astrick">*</span></label>
+                                <input name="emailId" id="emailId" required="" type="email" placeholder=" Enter your email id" class="form-control ">
+                                <div id="emailIdErr" style="color:red;padding-bottom:10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group fontform">
+                                <label for="">Your Institution/Organisation <span class="astrick">*</span></label>
+                                <input type="text" class="form-control" id="instituteName" name="instituteName" placeholder="Enter your Institution/Organisation name">
+                                <div id="instituteNameErr" style="color:red;padding-bottom:10px;"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                        <label for="" style="padding-bottom: 10px;">What is your current position? <span class="astrick">*</span>
+                  </label>
+                <div class="fontform">
+                    <input type="radio" name="currentPosition" value="Undergraduate Student" id="currentPosition1">
+                    <label for="currentPosition1">Undergraduate Student</label>
+                    <input type="radio" name="currentPosition" value="Graduate" id="currentPosition2">
+                    <label for="currentPosition2">Graduate</label>
+                    <input type="radio" name="currentPosition" value="Researcher" id="currentPosition3">
+                    <label for="currentPosition3">Researcher</label>
+                    <input type="radio" name="currentPosition" value="Working" id="currentPosition4">
+                    <label for="currentPosition4">Working</label>
+                    <input type="radio" name="currentPosition" value="Other" id="currentPosition5">
+                    <label for="currentPosition5">Other</label>
+                  <div id="currentPositionErr" style="color:red;padding-bottom:10px;"></div>
+                </div>
+
+              </div>
+                        <div class="col-md-12">
+                            <div class="form-group fontform">
+                                <label for="">Currently working/living in India? <span class="astrick">*</span></label>
+                                <input type="text" class="form-control" id="currentWorking" name="currentWorking" placeholder="Currently working/living in India?">
+                                    <div id="currentWorkingErr" style="color:red;padding-bottom:10px;"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group fontform">
+                                <label for="">Why do you want to attend ECSTRA Pre-Incubation Program?<span class="astrick">*</span></label>
+                                <input type="text" class="form-control" name="reasonForCertification" id="reasonForCertification" placeholder="Why do you want to attend ECSTRA Pre-Incubation Program?">
+                                    <div id="reasonForCertificationErr" style="color:red;padding-bottom:10px;"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="fontform">
+                                <label for="">Attach Resume(.doc, .docx,.ppt, .pptx,.txt,.pdf): <span class="astrick">*</span></label>
+                                <input type="file" id="attachResume" name="myfile" accept=".doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                <div id="attachResumeErr" style="color:red;padding-bottom:10px;"></div>
+                                
+                                <span id=""></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="fontform">
+                                <label for="">Attach cover letter(.png, .jpg,.jpeg):</label>
+                                <input type="file" id="attachCoveringLetter" name="myfile2" accept="image/*">
+                                <p>Cover letter stating the reasons for being considered for the talent scholarship,
+                                    clearly demonstrating your achievements and attach relevant documents.</p>
+                                    <div id="coverLetterErr" style="color:red;padding-bottom:10px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </form></div>
+                <div class="modal-footer sbmitbtn">
+                    <button type="button" id="btnApply">Submit Your Application!</button>
+                </div>
+               
+        </div>
+    </div>
+</div>
+</body>
+</html>
